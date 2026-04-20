@@ -23,7 +23,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
     return (
         <>
             <div className="container mx-auto mt-4">
-                <h1 className="text-lg">Categoría: {categorySlug}</h1>
+                <h1 className="text-lg text-center md:text-left">Categoría: {categorySlug}</h1>
             </div>
             <ProductGrid products={products} />
         </>

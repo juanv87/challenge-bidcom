@@ -19,7 +19,6 @@ export class DummyJSONProductRepository implements IProductRepository {
             const fields = PRODUCT_SUMMARY_FIELDS.join(",");
             const response = await fetch(`https://dummyjson.com/products/search?q=${query}&limit=${limit}&select=${fields}`);
             const data: SearchResponse = await response.json();
-            // ! DUDA: por qué aca no se le pasan parametros a toProduct?
             return data.products.map(toProduct);
         } catch (error) {
             console.error(error);

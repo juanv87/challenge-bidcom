@@ -63,8 +63,6 @@ yarn start
 
 ## Arquitectura
 
-El proyecto implementa **Clean Architecture** adaptada para un frontend con Next.js. La estructura separa las responsabilidades en 4 capas con una regla de dependencia estricta: las capas internas no conocen a las externas.
-
 ```
 src/
 ├── domain/              # Capa de Dominio (la más interna)

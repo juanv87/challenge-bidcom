@@ -29,7 +29,7 @@ describe("SearchProductsUseCase", () => {
                 price: 100,
                 discountPercentage: 10.5,
                 thumbnail: "test.jpg",
-                discountedPrice: 90,
+                finalPrice: 90,
             },
         ];
 

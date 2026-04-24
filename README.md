@@ -1,4 +1,4 @@
-# Bidcom Frontend Challenge
+# Clean Architecture
 
 Aplicación de búsqueda de productos construida con **Next.js 16**, **React 19** y **TypeScript**, siguiendo principios de **Clean Architecture**.
 
